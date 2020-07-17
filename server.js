@@ -10,7 +10,6 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.post('/recipe', (req, res) => {
-    console.log(req.body.ingredients)
     const bestRecipe = recipeFilter(req.body.ingredients);
     res.send({bestRecipe});
 })
