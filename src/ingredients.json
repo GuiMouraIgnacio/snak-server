@@ -1,0 +1,1054 @@
+[
+  {
+    "title": "Básicos",
+    "slug": "basicos",
+    "icon": "fas fa-utensils",
+    "options": [
+      {
+        "name": "Óleo",
+        "synonyms":[
+          "óleo",
+          "oleo"
+        ]
+      },
+      {
+        "name": "Azeite",
+        "synonyms":[
+          "azeite"
+        ]
+      },
+      {
+        "name": "Sal",
+        "synonyms":[
+          ""
+        ]
+      },
+      {
+        "name": "Açúcar",
+        "synonyms":[
+          "açúcar",
+          "acúcar",
+          "açucar",
+          "acucar"
+        ]
+      },
+      {
+        "name": "Farinha de Trigo",
+        "synonyms":[
+          "farinha"
+        ]
+      },
+      {
+        "name": "Água",
+        "synonyms":[
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Laticínios",
+    "slug": "laticinios",
+    "icon": "fas fa-cheese",
+    "options": [
+      {
+        "name": "Manteiga",
+        "synonyms":[
+          "manteiga",
+          "mantega"
+        ]
+      },
+      {
+        "name": "Ovos",
+        "synonyms":[
+          "ovo",
+          "ovos"
+        ]
+      },
+      {
+        "name": "Leite",
+        "synonyms":[
+          "leite"
+        ]
+      },
+      {
+        "name": "Creme de Leite",
+        "synonyms":[
+          "creme de leite"
+        ]
+      },
+      {
+        "name": "Requeijão",
+        "synonyms":[
+          "requeijão",
+          "requeijao"
+        ]
+      },
+      {
+        "name": "Queijo (qualquer)",
+        "synonyms":[
+          "queijo"
+        ]
+      },
+      {
+        "name": "Mussarela",
+        "synonyms":[
+          "queijo",
+          "mussarela",
+          "muçarela",
+          "mozarela",
+          "mozzarella"
+        ]
+      },
+      {
+        "name": "Parmesão",
+        "synonyms":[
+          "queijo",
+          "parmesão",
+          "parmesao"
+        ]
+      },
+      {
+        "name": "Cheddar",
+        "synonyms":[
+          "queijo",
+          "cheddar",
+          "chedar"
+        ]
+      },
+      {
+        "name": "Brie",
+        "synonyms":[
+          "queijo",
+          "brie"
+        ]
+      },
+      {
+        "name": "Margarina",
+        "synonyms":[
+          "margarina"
+        ]
+      },
+      {
+        "name": "Queijo Prato",
+        "synonyms":[
+          "queijo",
+          "queijo prato"
+        ]
+      },
+      {
+        "name": "Queijo Minas",
+        "synonyms":[
+          "queijo",
+          "queijo minas"
+        ]
+      },
+      {
+        "name": "Queijo Branco",
+        "synonyms":[
+          "queijo",
+          "queijo branco"
+        ]
+      },
+      {
+        "name": "Queijo Cottage",
+        "synonyms":[
+          "cottage",
+          "cotage"
+        ]
+      },
+      {
+        "name": "Ricota",
+        "synonyms":[
+          "ricota"
+        ]
+      },
+      {
+        "name": "Iogurte",
+        "synonyms":[
+          "iogurte"
+        ]
+      },
+      {
+        "name": "Cream Cheese",
+        "synonyms":[
+          "cream cheese",
+          "creamcheese",
+          "philadelphia"
+        ]
+      },
+      {
+        "name": "Leite Condensado",
+        "synonyms":[
+          "leite condensado",
+          "leite moça"
+        ]
+      },
+      {
+        "name": "Doce de Leite",
+        "synonyms":[
+          "doce de leite"
+        ]
+      },
+      {
+        "name": "Sorvete",
+        "synonyms":[
+          "sorvete",
+          "sorbet"
+        ]
+      },
+      {
+        "name": "Leite em Pó",
+        "synonyms":[
+          "leite em pó",
+          "leite em po",
+          "leite ninho"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Vegetais e Ervas",
+    "slug": "vegetais",
+    "icon": "fas fa-carrot",
+    "options": [
+      {
+        "name": "Cebola",
+        "synonyms":[
+          "cebola"
+        ]
+      },
+      {
+        "name": "Alho",
+        "synonyms":[
+          "alho"
+        ]
+      },
+      {
+        "name": "Tomate",
+        "synonyms":[
+          "tomate"
+        ]
+      },
+      {
+        "name": "Batata",
+        "synonyms":[
+          "batata"
+        ]
+      },
+      {
+        "name": "Cenoura",
+        "synonyms":[
+          "cenoura"
+        ]
+      },
+      {
+        "name": "Pepino",
+        "synonyms":[
+          "pepino"
+        ]
+      },
+      {
+        "name": "Pimentão",
+        "synonyms":[
+          "pimentão",
+          "pimentao"
+        ]
+      },
+      {
+        "name": "Manjericão",
+        "synonyms":[
+          "manjericão",
+          "manjericao"
+        ]
+      },
+      {
+        "name": "Salsinha",
+        "synonyms":[
+          "salsinha"
+        ]
+      },
+      {
+        "name": "Brócolis",
+        "synonyms":[
+          "brócolis",
+          "brócoli",
+          "brocolis",
+          "brocoli",
+          "brocolli"
+        ]
+      },
+      {
+        "name": "Couve-flor",
+        "synonyms":[
+          "couve-flor",
+          "couve flor",
+          "couveflor"
+        ]
+      },
+      {
+        "name": "Milho",
+        "synonyms":[
+          "milho"
+        ]
+      },
+      {
+        "name": "Espinafre",
+        "synonyms":[
+          "espinafre"
+        ]
+      },
+      {
+        "name": "Cogumelos",
+        "synonyms":[
+          "cogumelo",
+          "shimeji",
+          "shitake",
+          "champignon"
+        ]
+      },
+      {
+        "name": "Gengibre",
+        "synonyms":[
+          "gengibre"
+        ]
+      },
+      {
+        "name": "Pimenta",
+        "synonyms":[
+          "pimenta",
+          "jalapeno",
+          "jalapeño"
+        ]
+      },
+      {
+        "name": "Alecrim",
+        "synonyms":[
+          "alecrim"
+        ]
+      },
+      {
+        "name": "Alface",
+        "synonyms":[
+          "alface"
+        ]
+      },
+      {
+        "name": "Coentro",
+        "synonyms":[
+          "coentro"
+        ]
+      },
+      {
+        "name": "Batata Doce",
+        "synonyms":[
+          "batata doce"
+        ]
+      },
+      {
+        "name": "Azeitona",
+        "synonyms":[
+          "azeitona"
+        ]
+      },
+      {
+        "name": "Repolho",
+        "synonyms":[
+          "repolho"
+        ]
+      },
+      {
+        "name": "Abóbora",
+        "synonyms":[
+          "abóbora",
+          "abobora"
+        ]
+      },
+      {
+        "name": "Ervilha",
+        "synonyms":[
+          "ervilha"
+        ]
+      },
+      {
+        "name": "Vagem",
+        "synonyms":[
+          "vagem"
+        ]
+      },
+      {
+        "name": "Beringela",
+        "synonyms":[
+          "beringela"
+        ]
+      },
+      {
+        "name": "Tomate Seco",
+        "synonyms":[
+          "tomate seco"
+        ]
+      },
+      {
+        "name": "Cebolinha",
+        "synonyms":[
+          "cebolinha"
+        ]
+      },
+      {
+        "name": "Hortelã",
+        "synonyms":[
+          "hortelã",
+          "hortela"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Frutas",
+    "slug": "frutas",
+    "icon": "fas fa-apple-alt",
+    "options": [
+      {
+        "name": "Banana",
+        "synonyms":[
+          "banana"
+        ]
+      },
+      {
+        "name": "Maçã",
+        "synonyms":[
+          "maçã",
+          "maça"
+        ]
+      },
+      {
+        "name": "Limão",
+        "synonyms":[
+          "limão",
+          "limao",
+          "lima"
+        ]
+      },
+      {
+        "name": "Morango",
+        "synonyms":[
+          "morango"
+        ]
+      },
+      {
+        "name": "Laranja",
+        "synonyms":[
+          "laranja"
+        ]
+      },
+      {
+        "name": "Abacaxi",
+        "synonyms":[
+          "abacaxi"
+        ]
+      },
+      {
+        "name": "Melão",
+        "synonyms":[
+          "melão"
+        ]
+      },
+      {
+        "name": "Melancia",
+        "synonyms":[
+          "melancia"
+        ]
+      },
+      {
+        "name": "Coco",
+        "synonyms":[
+          "coco"
+        ]
+      },
+      {
+        "name": "Pêssego",
+        "synonyms":[
+          "pêssego",
+          "pessego"
+        ]
+      },
+      {
+        "name": "Figo",
+        "synonyms":[
+          "figo"
+        ]
+      },
+      {
+        "name": "Uva",
+        "synonyms":[
+          "uva"
+        ]
+      },
+      {
+        "name": "Pêra",
+        "synonyms":[
+          "pêra",
+          "pera"
+        ]
+      },
+      {
+        "name": "Manga",
+        "synonyms":[
+          "manga"
+        ]
+      },
+      {
+        "name": "Cereja",
+        "synonyms":[
+          "cereja"
+        ]
+      },
+      {
+        "name": "Kiwi",
+        "synonyms":[
+          "kiwi"
+        ]
+      },
+      {
+        "name": "Mixirica",
+        "synonyms":[
+          "tangerina",
+          "mixirica",
+          "bergamota"
+        ]
+      },
+      {
+        "name": "Mamão",
+        "synonyms":[
+          "mamão",
+          "mamao"
+        ]
+      },
+      {
+        "name": "Goiaba",
+        "synonyms":[
+          "goiaba"
+        ]
+      },
+      {
+        "name": "Maracujá",
+        "synonyms":[
+          "maracujá",
+          "maracuja"
+        ]
+      },
+      {
+        "name": "Caju",
+        "synonyms":[
+          "caju"
+        ]
+      },
+      {
+        "name": "Abacate",
+        "synonyms":[
+          "abacate",
+          "avocado"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Grãos e Massas",
+    "slug": "massas",
+    "icon": "fas fa-bread-slice",
+    "options": [
+      {
+        "name": "Arroz",
+        "synonyms":[
+          "arroz"
+        ]
+      },
+      {
+        "name": "Feijão",
+        "synonyms":[
+          "feijão",
+          "feijao"
+        ]
+      },
+      {
+        "name": "Macarrão",
+        "synonyms":[
+          "macarrão",
+          "macarrao",
+          "pasta"
+        ]
+      },
+      {
+        "name": "Pão",
+        "synonyms":[
+          "pão",
+          "pao"
+        ]
+      },
+      {
+        "name": "Fermento",
+        "synonyms":[
+          "fermento",
+          "levedura"
+        ]
+      },
+      {
+        "name": "Aveia",
+        "synonyms":[
+          "aveia"
+        ]
+      },
+      {
+        "name": "Massa Folhada",
+        "synonyms":[
+          "massa folhada"
+        ]
+      },
+      {
+        "name": "Tapioca",
+        "synonyms":[
+          "tapioca"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Temperos",
+    "slug": "temperos",
+    "icon": "fas fa-mortar-pestle",
+    "options": [
+      {
+        "name": "Canela",
+        "synonyms":[
+          "canela"
+        ]
+      },
+      {
+        "name": "Baunilha",
+        "synonyms":[
+          "baunilha"
+        ]
+      },
+      {
+        "name": "Páprica",
+        "synonyms":[
+          "páprica",
+          "paprica"
+        ]
+      },
+      {
+        "name": "Orégano",
+        "synonyms":[
+          "orégano",
+          "oregano"
+        ]
+      },
+      {
+        "name": "Pimenta do Reino",
+        "synonyms":[
+          "pimenta do reino",
+          "pimenta-do-reino"
+        ]
+      },
+      {
+        "name": "Nóz-Moscada",
+        "synonyms":[
+          "nóz-moscada",
+          "nóz moscada",
+          "noz-moscada",
+          "noz moscada"
+        ]
+      },
+      {
+        "name": "Cominho",
+        "synonyms":[
+          "cominho"
+        ]
+      },
+      {
+        "name": "Gergelim",
+        "synonyms":[
+          "gergelim"
+        ]
+      },
+      {
+        "name": "Maionese",
+        "synonyms":[
+          "maionese"
+        ]
+      },
+      {
+        "name": "Ketchup",
+        "synonyms":[
+          "ketchup"
+        ]
+      },
+      {
+        "name": "Mostarda",
+        "synonyms":[
+          "mostarda"
+        ]
+      },
+      {
+        "name": "Vinagre",
+        "synonyms":[
+          "vinagre"
+        ]
+      },
+      {
+        "name": "Molho de Pimenta",
+        "synonyms":[
+          "molho de pimenta",
+          "tabasco"
+        ]
+      },
+      {
+        "name": "Shoyu",
+        "synonyms":[
+          "shoyu",
+          "molho de soja"
+        ]
+      },
+      {
+        "name": "Creme de Avelã",
+        "synonyms":[
+          "Nutella",
+          "creme de avela",
+          "creme de avelã"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Carnes",
+    "slug": "carnes",
+    "icon": "fas fa-drumstick-bite",
+    "options": [
+      {
+        "name": "Carne Moída",
+        "synonyms":[
+          "carne moída",
+          "carne moida"
+        ]
+      },
+      {
+        "name": "Filé Mignon",
+        "synonyms":[
+          "carne",
+          "mignon"
+        ]
+      },
+      {
+        "name": "Picanha",
+        "synonyms":[
+          "carne",
+          "picanha"
+        ]
+      },
+      {
+        "name": "Alcatra",
+        "synonyms":[
+          "carne",
+          "alcatra"
+        ]
+      },
+      {
+        "name": "Maminha",
+        "synonyms":[
+          "carne",
+          "maminha"
+        ]
+      },
+      {
+        "name": "Filé Bovino",
+        "synonyms":[
+          "carne",
+          "bife",
+          "filé",
+          "fillet"
+        ]
+      },
+      {
+        "name": "Cupim",
+        "synonyms":[
+          "carne",
+          "cupim"
+        ]
+      },
+      {
+        "name": "Peito de frango",
+        "synonyms":[
+          "frango",
+          "peito de frango"
+        ]
+      },
+      {
+        "name": "Coxa de frango",
+        "synonyms":[
+          "frango",
+          "coxa de frango"
+        ]
+      },
+      {
+        "name": "Asinhas de frango",
+        "synonyms":[
+          "frango",
+          "asinhas de frango",
+          "asas de frango",
+          "asa de frango",
+          "asinha de frango"
+        ]
+      },
+      {
+        "name": "Filé de frango",
+        "synonyms":[
+          "frango",
+          "filé de frango",
+          "file de frango",
+          "fillet de frango"
+        ]
+      },
+      {
+        "name": "Frango Desfiado",
+        "synonyms":[
+          "frango",
+          "frango desfiado"
+        ]
+      },
+      {
+        "name": "Linguiça Calabresa",
+        "synonyms":[
+          "linguiça calabresa",
+          "linguiça",
+          "linguica calabresa",
+          "linguica",
+          "calabresa"
+        ]
+      },
+      {
+        "name": "Linguiça Toscana",
+        "synonyms":[
+          "linguiça toscana",
+          "linguiça",
+          "linguica toscana",
+          "linguica",
+          "toscana"
+        ]
+      },
+      {
+        "name": "Linguiça Defumada",
+        "synonyms":[
+          "linguiça defumada",
+          "linguiça",
+          "linguica defumada",
+          "linguica"
+        ]
+      },
+      {
+        "name": "Bacon",
+        "synonyms":[
+          "bacon",
+          "barriga de porco",
+          "pancetta"
+        ]
+      },
+      {
+        "name": "Salsicha",
+        "synonyms":[
+          "salsicha"
+        ]
+      },
+      {
+        "name": "Presunto",
+        "synonyms":[
+          "presunto",
+          "presuntado"
+        ]
+      },
+      {
+        "name": "Salame",
+        "synonyms":[
+          "salame"
+        ]
+      },
+      {
+        "name": "Mortadela",
+        "synonyms":[
+          "mortadela",
+          "mortadella"
+        ]
+      },
+      {
+        "name": "Costela Suína",
+        "synonyms":[
+          "costela",
+          "costela suína"
+        ]
+      },
+      {
+        "name": "Costela Bovina",
+        "synonyms":[
+          "costela bovina",
+          "costela"
+        ]
+      },
+      {
+        "name": "Atum",
+        "synonyms":[
+          "atum"
+        ]
+      },
+      {
+        "name": "Atum Enlatado",
+        "synonyms":[
+          "atum enlatado",
+          "lata de atum",
+          "latas de atum"
+        ]
+      },
+      {
+        "name": "Salmão",
+        "synonyms":[
+          "salmão",
+          "salmao"
+        ]
+      },
+      {
+        "name": "Tilápia",
+        "synonyms":[
+          "tilápia",
+          "tilapia",
+          "st. peter",
+          "saint peter"
+        ]
+      },
+      {
+        "name": "Sardinha",
+        "synonyms":[
+          "sardinha"
+        ]
+      },
+      {
+        "name": "Anchova",
+        "synonyms":[
+          "anchova"
+        ]
+      },
+      {
+        "name": "Filé de Peixe",
+        "synonyms":[
+          "filé de peixe",
+          "file de peixe",
+          "fillet de peixe",
+          "peixe"
+        ]
+      },
+      {
+        "name": "Camarão",
+        "synonyms":[
+          "camarão",
+          "camarao"
+        ]
+      },
+      {
+        "name": "Lagosta",
+        "synonyms":[
+          "lagosta"
+        ]
+      },
+      {
+        "name": "Lula",
+        "synonyms":[
+          "lula"
+        ]
+      },
+      {
+        "name": "Polvo",
+        "synonyms":[
+          "polvo"
+        ]
+      },
+      {
+        "name": "Pato",
+        "synonyms":[
+          "pato"
+        ]
+      },
+      {
+        "name": "Cordeiro",
+        "synonyms":[
+          "cordeiro"
+        ]
+      },
+      {
+        "name": "Bode",
+        "synonyms":[
+          "bode"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Nozes e Sementes",
+    "slug": "noz",
+    "icon": "fas fa-brain",
+    "options": [
+      {
+        "name": "Amendoim",
+        "synonyms":[
+          "amendoim"
+        ]
+      },
+      {
+        "name": "Nóz",
+        "synonyms":[
+          "nóz",
+          "noz",
+          "nozes"
+        ]
+      },
+      {
+        "name": "Castanha-do-Pará",
+        "synonyms":[
+          "castanha-do-pará",
+          "castanha do pará",
+          "castanha-do-brasil",
+          "castanha do brasil"
+        ]
+      },
+      {
+        "name": "Macadâmia",
+        "synonyms":[
+          "macadâmia",
+          "macadamia"
+        ]
+      },
+      {
+        "name": "Amêndoa",
+        "synonyms":[
+          "amêndoa",
+          "amendoa"
+        ]
+      },
+      {
+        "name": "Pistache",
+        "synonyms":[
+          "pistache"
+        ]
+      },
+      {
+        "name": "Castanha de Caju",
+        "synonyms":[
+          "castanha de caju"
+        ]
+      },
+      {
+        "name": "Avelã",
+        "synonyms":[
+          "avelã",
+          "avela"
+        ]
+      }
+    ]
+  }
+]
