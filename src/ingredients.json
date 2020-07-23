@@ -20,7 +20,7 @@
       {
         "name": "Sal",
         "synonyms":[
-          ""
+          "sal"
         ]
       },
       {
@@ -41,7 +41,8 @@
       {
         "name": "Água",
         "synonyms":[
-          ""
+          "água",
+          "agua"
         ]
       }
     ]
@@ -510,10 +511,11 @@
         ]
       },
       {
-        "name": "Mixirica",
+        "name": "Mexerica",
         "synonyms":[
           "tangerina",
-          "mixirica",
+          "mexerica",
+          "mexirica",
           "bergamota"
         ]
       },
@@ -571,11 +573,82 @@
         ]
       },
       {
-        "name": "Macarrão",
+        "name": "Macarrão (qualquer)",
         "synonyms":[
           "macarrão",
           "macarrao",
           "pasta"
+        ]
+      },
+      {
+        "name": "Farfalle",
+        "synonyms":[
+          "farfalle",
+          "farfale",
+          "gravatinha"
+        ]
+      },
+      {
+        "name": "Spaghetti",
+        "synonyms":[
+          "spaghetti",
+          "espaguete"
+        ]
+      },
+      {
+        "name": "Penne",
+        "synonyms":[
+          "penne",
+          "pene"
+        ]
+      },
+      {
+        "name": "Fettuccine",
+        "synonyms":[
+          "fettuccine",
+          "fetuccine"
+        ]
+      },
+      {
+        "name": "Tagliatelle",
+        "synonyms":[
+          "tagliatelle",
+          "tagliatele"
+        ]
+      },
+      {
+        "name": "Fusilli",
+        "synonyms":[
+          "fusilli",
+          "fusili",
+          "parafuso"
+        ]
+      },
+      {
+        "name": "Talharim",
+        "synonyms":[
+          "talharim"
+        ]
+      },
+      {
+        "name": "Gnocchi",
+        "synonyms":[
+          "gnocchi",
+          "gnochi",
+          "nhoque"
+        ]
+      },
+      {
+        "name": "Ravioli",
+        "synonyms":[
+          "ravioli"
+        ]
+      },
+      {
+        "name": "Capeletti",
+        "synonyms":[
+          "capeletti",
+          "capeleti"
         ]
       },
       {
@@ -651,10 +724,8 @@
         ]
       },
       {
-        "name": "Nóz-Moscada",
+        "name": "Noz-Moscada",
         "synonyms":[
-          "nóz-moscada",
-          "nóz moscada",
           "noz-moscada",
           "noz moscada"
         ]
@@ -1000,9 +1071,8 @@
         ]
       },
       {
-        "name": "Nóz",
+        "name": "Noz",
         "synonyms":[
-          "nóz",
           "noz",
           "nozes"
         ]

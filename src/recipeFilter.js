@@ -1,49 +1,31 @@
 const recipes = require("./recipes.json");
 const originIngredients = require("./ingredients.json");
 
-const filterRecipe = (
-  ingredients,
-  recipesList = recipes,
-  oldList = [],
-  ingLength = -1
-) => {
-  if (ingLength === -1) ingLength = ingredients.length;
-  if (ingredients.length === 0) {
-    const bestRecipe = findBestRecipe(recipesList);
-    return {
-      allIngredients: true,
-      excessIngredients:
-        bestRecipe.ingredients.length === ingLength ? false : true,
-      recipe: bestRecipe,
-    };
-  }
-  const firstIngSynonyms = findIngredientSynonims(ingredients[0]);
-  const reducedRecipes = recipesList.filter((recipe) => {
-    return recipe.ingredients.find((ing) =>
-      firstIngSynonyms.find((syn) => ing.toLowerCase().includes(syn))
-    );
+const filterRecipe = (ingredients) => {
+  const allSynonims = [];
+  ingredients.forEach((ing) => allSynonims.push(findIngredientSynonims(ing)));
+  const validRecipes = [];
+  recipes.forEach((recipe) => {
+    let valid = true;
+    let outIngs = 0;
+    for (let recipeIng of recipe.ingredients) {
+      let thisIng = false;
+      allSynonims.forEach((ingSynon) => {
+        ingSynon.forEach((ingName) => {
+          if (recipeIng.toLowerCase().includes(ingName)) thisIng = true;
+        });
+      });
+      if (!thisIng) outIngs++;
+      if(outIngs > 3) {
+          valid = false;
+          break;
+      }
+    }
+    if(valid)
+      validRecipes.push({...recipe, outIngs})
   });
-  ingredients.shift();
-  if (reducedRecipes.length === 0) {
-    const bestRecipe = findBestRecipe(recipesList);
-    return {
-      allIngredients: false,
-      recipe: bestRecipe,
-      excessIngredients:
-        bestRecipe.ingredients.length === ingLength - ingredients.length
-          ? false
-          : true,
-    };
-  }
-  return filterRecipe(ingredients, reducedRecipes, recipesList, ingLength);
+  return findBestRecipe(validRecipes);
 };
-
-function between(min, max) {
-  if (max === 1) return 0;
-  return Math.floor(
-    Math.random() * (max - min) + min
-  )
-}
 
 const findIngredientSynonims = (name) => {
   let ing;
@@ -57,14 +39,21 @@ const findIngredientSynonims = (name) => {
   return ing && ing.synonyms ? ing.synonyms : [];
 };
 
+function between(min, max) {
+  if (max === 1) return 0;
+  return Math.floor(
+    Math.random() * (max - min) + min
+  )
+}
+
 const findBestRecipe = (recipeList) => {
   const cleanRecipeList = recipeList.filter(
     (rec) => rec.ingredients.length <= 1 ? false : true
   );
-  cleanRecipeList.sort((a, b) => a.ingredients.length - b.ingredients.length);
-  const maxIngredients = cleanRecipeList[0].ingredients.length;
+  cleanRecipeList.sort((a, b) => a.outIngs - b.outIngs);
+  const maxIngredients = cleanRecipeList[0].outIngs;
   const newRecipeList = cleanRecipeList.filter(
-    (rec) => rec.ingredients.length <= maxIngredients
+    (rec) => rec.outIngs <= maxIngredients
   );
   newRecipeList.sort(
     (a, b) =>
