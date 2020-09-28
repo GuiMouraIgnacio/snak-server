@@ -9,6 +9,8 @@
         "synonyms":[
           "óleo",
           "oleo"
+        ],
+        "antisynonyms":[
         ]
       },
       {
@@ -21,6 +23,9 @@
         "name": "Sal",
         "synonyms":[
           "sal"
+        ],
+        "antisynonyms":[
+          "salgado"
         ]
       },
       {
@@ -43,6 +48,9 @@
         "synonyms":[
           "água",
           "agua"
+        ],
+        "antisynonyms":[
+          "aguardente"
         ]
       }
     ]
@@ -64,12 +72,23 @@
         "synonyms":[
           "ovo",
           "ovos"
+        ],
+        "antisynonyms":[
+          "povo",
+          "novo"
         ]
       },
       {
         "name": "Leite",
         "synonyms":[
           "leite"
+        ],
+        "antisynonyms":[
+          "creme de",
+          "condensado",
+          "doce de",
+          "em po",
+          "em pó"
         ]
       },
       {
@@ -235,6 +254,9 @@
         "name": "Batata",
         "synonyms":[
           "batata"
+        ],
+        "antisynonyms":[
+          "doce"
         ]
       },
       {
@@ -284,13 +306,17 @@
         "synonyms":[
           "couve-flor",
           "couve flor",
-          "couveflor"
+          "couveflor",
+          "couve flor"
         ]
       },
       {
         "name": "Milho",
         "synonyms":[
           "milho"
+        ],
+        "antisynonyms":[
+          "farinha de"
         ]
       },
       {
@@ -320,6 +346,10 @@
           "pimenta",
           "jalapeno",
           "jalapeño"
+        ],
+        "antisynonyms":[
+          "pimentao",
+          "pimentão"
         ]
       },
       {
@@ -362,7 +392,8 @@
         "name": "Abóbora",
         "synonyms":[
           "abóbora",
-          "abobora"
+          "abobora",
+          "moranga"
         ]
       },
       {
@@ -420,6 +451,9 @@
         "synonyms":[
           "maçã",
           "maça"
+        ],
+        "antisynonyms":[
+          "maçari"
         ]
       },
       {
@@ -451,7 +485,8 @@
       {
         "name": "Melão",
         "synonyms":[
-          "melão"
+          "melão",
+          "melao"
         ]
       },
       {
@@ -502,6 +537,9 @@
         "name": "Cereja",
         "synonyms":[
           "cereja"
+        ],
+        "antisynonyms":[
+          "tomate"
         ]
       },
       {
@@ -530,6 +568,9 @@
         "name": "Goiaba",
         "synonyms":[
           "goiaba"
+        ],
+        "antisynonyms":[
+          "goiabada"
         ]
       },
       {
@@ -543,6 +584,9 @@
         "name": "Caju",
         "synonyms":[
           "caju"
+        ],
+        "antisynonyms":[
+          "castanha"
         ]
       },
       {
@@ -563,6 +607,9 @@
         "name": "Arroz",
         "synonyms":[
           "arroz"
+        ],
+        "antisynonyms":[
+          "doce"
         ]
       },
       {
@@ -967,6 +1014,10 @@
         "name": "Atum",
         "synonyms":[
           "atum"
+        ],
+        "antisynonyms":[
+          "lata",
+          "enlatado"
         ]
       },
       {
@@ -1075,6 +1126,9 @@
         "synonyms":[
           "noz",
           "nozes"
+        ],
+        "antisynonyms":[
+          "moscada"
         ]
       },
       {

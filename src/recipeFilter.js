@@ -11,9 +11,14 @@ const filterRecipe = (ingredients) => {
     for (let recipeIng of recipe.ingredients) {
       let thisIng = false;
       allSynonims.forEach((ingSynon) => {
-        ingSynon.forEach((ingName) => {
+        ingSynon.synonyms.forEach((ingName) => {
           if (recipeIng.toLowerCase().includes(ingName)) thisIng = true;
         });
+        if (thisIng) {
+          ingSynon.antisynonyms.forEach((ingName) => {
+            if (recipeIng.toLowerCase().includes(ingName)) thisIng = false;
+          });
+        }
       });
       if (!thisIng) outIngs++;
       if (outIngs > 3) {
@@ -35,7 +40,11 @@ const findIngredientSynonims = (name) => {
       }
     });
   });
-  return ing && ing.synonyms ? ing.synonyms : [];
+  const responde = {
+    synonyms: ing && ing.synonyms ? ing.synonyms : [],
+    antisynonyms: ing && ing.antisynonyms ? ing.antisynonyms : [],
+  };
+  return responde;
 };
 
 const findBestRecipe = (recipeList) => {
